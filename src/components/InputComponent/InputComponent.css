@@ -1,0 +1,10 @@
+.input{
+    border: none;
+    outline: none;
+}
+
+.input-container{
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+}
