@@ -1,14 +1,14 @@
-import React from "react";
-import { Route, Link } from "react-router-dom";
-import { HomePage, TodosPage } from "./pages";
+import React from 'react';
+import { Route, Link } from 'react-router-dom';
+import { HomePage, TodosPage } from './pages';
 
 function App() {
-  return (
-    <>
-      <Route exact path="/" component={HomePage} />
-      <Route path={"/todo/:todoId"} component={TodosPage} />
-    </>
-  );
+    return (
+        <>
+            <Route exact path="/" component={HomePage} />
+            <Route path={'/todo/:todoId'} component={TodosPage} />
+        </>
+    );
 }
 
 export default App;

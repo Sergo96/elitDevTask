@@ -1,5 +1,5 @@
-import React, { FC } from "react";
+import React, { FC } from 'react';
 
 export const TodosPage: FC = () => {
-  return <div>Todos</div>;
+    return <div>Todos</div>;
 };

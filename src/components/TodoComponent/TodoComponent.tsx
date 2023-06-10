@@ -1,12 +1,8 @@
-import React, { FC } from "react";
-import { tTodos } from "../../types";
-interface IProps extends tTodos {}
+import React, { FC } from 'react';
+import { tTodos } from '../../types';
 
-export const TodoComponent: FC<IProps> = ({
-  id,
-  title,
-  description,
-  deadline,
-}) => {
-  return <li key={id}>{title}</li>;
+type tProps = tTodos;
+
+export const TodoComponent: FC<tProps> = ({ id, title, description, deadline }) => {
+    return <li key={id}>{title}</li>;
 };

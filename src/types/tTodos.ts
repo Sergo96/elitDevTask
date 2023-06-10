@@ -1,8 +1,8 @@
-import { tUUid } from "./tUuid";
+import { tUUid } from './tUuid';
 
 export type tTodos = {
-  id: tUUid;
-  title: string;
-  description: string;
-  deadline: string;
+    id: tUUid;
+    title: string;
+    description: string;
+    deadline: string;
 };
